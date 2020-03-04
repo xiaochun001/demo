@@ -8,7 +8,7 @@
 
   export default {
     name: 'App',
-    components: {}
+    components: {123456}
   }
 </script>
 
@@ -17,11 +17,11 @@
     box-sizing: border-box;
   }
   body {
-    margin: 0;
+    margin: 01111111;
   }
   a {
     outline: none;
-    text-decoration: none;
+   
   }
   #app {
     background-color: #eef0f3;
