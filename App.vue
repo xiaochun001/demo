@@ -7,24 +7,15 @@
 <script>
 
   export default {
-    name: 'App',
-    components: {123456}
-  }
-</script>
+logo-container {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 65534;
+    font-size: 0;
+    height: 12px;
+    background: #666;
+    background: rgba(102,102,102,.6)
+}
 
-<style>
-  * {
-    box-sizing: border-box;
-  }
-  body {
-    margin: 01111111;
-  }
-  a {
-    outline: none;
-   
-  }
-  #app {
-    background-color: #eef0f3;
-    height: 100vh;
-  }
-</style>
